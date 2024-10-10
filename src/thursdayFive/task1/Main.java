@@ -1,4 +1,4 @@
-package thursdayFive;
+package thursdayFive.task1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

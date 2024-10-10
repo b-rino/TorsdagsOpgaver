@@ -1,4 +1,4 @@
-package thursdayFive;
+package thursdayFive.task1;
 
 public class Customer {
     private String firstName;
