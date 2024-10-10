@@ -1,4 +1,4 @@
-package thursdayFive.task2;
+package Torsdagsopgaver5.task2;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.io.File;

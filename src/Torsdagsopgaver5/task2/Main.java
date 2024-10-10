@@ -1,4 +1,4 @@
-package thursdayFive.task2;
+package Torsdagsopgaver5.task2;
 
 public class Main {
     public static void main(String[] args) {
