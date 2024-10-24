@@ -1,5 +1,6 @@
-package Torsdagsopgaver6;
-//Task1
+package Torsdagsopgaver6.TaskOne;
+
+//task1
 public class Main {
     public static void main(String[] args) {
         Flows flows = new Flows();
@@ -12,6 +13,5 @@ public class Main {
         flows.methodC("Hello, world");
         //System.out.println("flows.methodD(25);");
         flows.methodD(25);
-
     }
 }

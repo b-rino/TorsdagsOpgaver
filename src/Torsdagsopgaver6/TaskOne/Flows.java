@@ -1,4 +1,4 @@
-package Torsdagsopgaver6;
+package Torsdagsopgaver6.TaskOne;
 
 //Task1
 

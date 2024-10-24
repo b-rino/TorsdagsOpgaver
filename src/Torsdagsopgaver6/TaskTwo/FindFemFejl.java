@@ -1,4 +1,4 @@
-package Torsdagsopgaver6;
+package Torsdagsopgaver6.TaskTwo;
 
 public class FindFemFejl {
     public static void main(String[] args) {
