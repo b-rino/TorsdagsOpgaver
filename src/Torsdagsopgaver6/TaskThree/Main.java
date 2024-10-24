@@ -49,19 +49,19 @@ public class Main {
         persons.add(t2);
         persons.add(t3);
 
-        for (Person person : persons) {
+        for (Person person : persons) { // foreach loop iterating through persons and checks if the students already have passed the course, and whether the teachers are able to teach the course.
             if (person instanceof Student) {
-                Student student = (Student) person;
+                Student student = (Student) person; //Type casting to Student to access Student methods
                 if (student.getPassedCourses().contains("Java 1.0")){
                     System.out.println(student.getName() + " has already passed the course");
                 }
                 else{
                     System.out.println(student.getName() + " has not passed the course, but is now added to the course");
-                    student.addCourse("Java 1.0");
+                    student.addCourse("Java 1.0"); //adds the course to those students who haven't already completed it
                 }
             }
             if (person instanceof Teacher) {
-                Teacher teacher = (Teacher) person;
+                Teacher teacher = (Teacher) person; //type casting to Teacher to access Teacher methods
                 if(teacher.getCanTeach().contains("Java 1.0")){
                     System.out.println(teacher.getName() + " can teach the course");
                 }
@@ -69,7 +69,9 @@ public class Main {
                     System.out.println(teacher.getName() + " cannot teach the course");
                 }
             }
+
         }
+        System.out.println(s2.getCurrentCourses()); //to check if the code works properly
     }
 }
 
